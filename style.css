@@ -2,6 +2,50 @@ body {
   background-size:cover;
 }
 
+body 
+{
+    background-image: url("images/2017.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.CS-middle 
+{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: #4A5462;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.CS-middle h2 
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.CS-middle p 
+{
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    float: right;
+    z-index: 2;
+    color: white;
+    text-align: justify;
+    word-wrap:break-word;
+}
+.CS-middle img 
+{
+    position: relative;
+    float: right;
+    width: 2rem;
+    z-index: 1;
+}
+
+
+
+
 .Bordereau {
   background-color:#4A5462;
   height: 30%;
