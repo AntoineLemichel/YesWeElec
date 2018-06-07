@@ -1,7 +1,7 @@
+<<<<<<< HEAD
 body {
   background-size:cover;
 }
-
 .Bordereau {
   background-color:#4A5462;
   height: 30%;
@@ -9,6 +9,13 @@ body {
   margin-top: 2S%;
   border-bottom: 2px black outset;
   box-shadow: 1px 1px 15px black;
+}
+
+body
+{
+    background-image: url("images/2017.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .nav_menu {
@@ -21,7 +28,7 @@ body {
 .CS-middle {
   border: 2px black outset;
   Width:60%;
-  height: 50%;
+  height:50%;
   margin-left:20%;
   margin-right:20%;
   margin-bottom:20%;
@@ -32,4 +39,27 @@ body {
 h1 {
   text-align: center;
   margin-top: 10px;
+}
+
+.CS-middle h2
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.CS-middle p
+{
+    font-size: 1rem;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    text-align: justify;
+    word-wrap:break-word;
+}
+.CS-middle img
+{
+    position: relative;
+    float: right;
+    width: 2rem;
+    z-index: 1;
 }
