@@ -1,6 +1,32 @@
+body {
+  background-size:cover;
+}
+
 .Bordereau {
-  background-color: 120, 99, 95;
+  background-color:#4A5462;
   height: 30%;
+  width: 100%;
+  margin-top: 2S%;
+  border-bottom: 2px black outset;
+  box-shadow: 1px 1px 15px black;
+}
+
+.nav_menu {
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.CS-middle {
+  border: 2px black outset;
+  Width:60%;
+  height: 50%;
+  margin-left:20%;
+  margin-right:20%;
+  margin-bottom:20%;
+  margin-top:6%;
+  padding:5%;
 }
 
 h1 {
