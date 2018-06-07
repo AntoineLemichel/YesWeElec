@@ -94,13 +94,11 @@ input[type=submit]:hover {
 }
 
 .twitterimage {
-  position: absolute;
-  top: 112%;
-  right: 17%;
+  margin-bottom:20%;
+  margin-left:45%;
 }
 
 .linkedinimage {
-  position: absolute;
-  top: 112%;
-  right: 20%;
+  position:relative;
+  margin-left: 1%;
 }
