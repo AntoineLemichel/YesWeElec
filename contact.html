@@ -33,21 +33,30 @@
             <div class="CS-middle">
               <article>
                 <header>
-                  <div class="titre"><h2> Blablabla </h2></div>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
-                  <p>blablablbla</p>
+                  <div class="container">
+                   <form action="action_page.php">
 
+                     <label for="fname">Prénom</label>
+                     <input type="text" id="fname" name="firstname" placeholder="Votre Prénom..">
+
+                     <label for="lname">Nom</label>
+                     <input type="text" id="lname" name="lastname" placeholder="Votre nom..">
+
+                     <label for="country">Pays</label>
+                     <select id="country" name="Pays">
+                       <option value="australia">France</option>
+                       <option value="canada">Angleterre</option>
+                       <option value="usa">Allemagne</option>
+                       <option value="autre">Autre</option>
+                     </select>
+
+                     <label for="subject">Sujet</label>
+                     <textarea id="subject" name="subject" placeholder="Décrivez la nature de votre demande..." style="height:200px"></textarea>
+
+                     <input type="submit" value="Valider">
+
+                   </form>
+                 </div>
                 </header>
               </article>
             </div>
