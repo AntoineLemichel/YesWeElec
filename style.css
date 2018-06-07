@@ -1,8 +1,19 @@
+.Bordereau {
+  background-color:#4A5462;
+  height: 30%;
+  width: 100%;
+  margin-top: 2S%;
+  border-bottom: 2px black outset;
+  box-shadow: 1px 1px 15px black;
+}
+
+
 body
 {
     background-image: url("images/2017.jpg");
     background-repeat: no-repeat;
     background-position: center;
+background-size:cover;	
 }
 
 .Bordereau {
@@ -43,7 +54,6 @@ h1 {
 .CS-middle p
 {
     font-size: 1rem;
-    text-align: center;
     z-index: 2;
     color: white;
     word-wrap:break-word;
