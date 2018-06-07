@@ -2,7 +2,7 @@
   background-color:#4A5462;
   height: 30%;
   width: 100%;
-  margin-top: 2S%;
+  margin-top: 2%;
   border-bottom: 2px black outset;
   box-shadow: 1px 1px 15px black;
 }
@@ -13,7 +13,7 @@ body
     background-image: url("images/2017.jpg");
     background-repeat: no-repeat;
     background-position: center;
-background-size:cover;
+    background-size:cover;
 }
 
 .nav_menu {
