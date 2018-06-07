@@ -5,11 +5,16 @@ body
     background-position: center;
 }
 
+.Bordereau {
+  background-color: red;
+}
+
 .nav_menu {
   text-align:center;
   display:flex;
   flex-direction:row;
   justify-content: space-around;
+  background-color: red;
 }
 
 .CS-middle {
@@ -21,6 +26,7 @@ body
   margin-bottom:20%;
   margin-top:6%;
   padding:5%;
+  background-color: grey;
 }
 
 h1 {
