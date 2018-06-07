@@ -13,11 +13,7 @@ body
     background-image: url("images/2017.jpg");
     background-repeat: no-repeat;
     background-position: center;
-background-size:cover;	
-}
-
-.Bordereau {
-  background-color: red;
+background-size:cover;
 }
 
 .nav_menu {
@@ -25,7 +21,6 @@ background-size:cover;
   display:flex;
   flex-direction:row;
   justify-content: space-around;
-  background-color: red;
 }
 
 .CS-middle {
@@ -37,7 +32,6 @@ background-size:cover;
   margin-bottom:20%;
   margin-top:6%;
   padding:5%;
-  background-color: grey;
 }
 
 h1 {
