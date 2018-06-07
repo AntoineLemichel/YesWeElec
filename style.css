@@ -43,6 +43,7 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     color: white;
+    word-wrap:break-word;
 }
 .CS-middle p
 {
@@ -101,4 +102,8 @@ input[type=submit]:hover {
 .linkedinimage {
   position:relative;
   margin-left: 1%;
+}
+
+#localisation {
+  justify-content:center;
 }
