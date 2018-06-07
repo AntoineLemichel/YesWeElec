@@ -7,13 +7,12 @@
   box-shadow: 1px 1px 15px black;
 }
 
-
 body
 {
     background-image: url("images/2017.jpg");
     background-repeat: no-repeat;
     background-position: center;
-background-size:cover;	
+    background-size:cover;
 }
 
 .nav_menu {
@@ -50,12 +49,12 @@ h1 {
     font-size: 1rem;
     z-index: 2;
     color: white;
+    text-align: justify;
     word-wrap:break-word;
 }
-.CS-middle img
-{
-    position: relative;
-    float: right;
-    width: 2rem;
-    z-index: 1;
+
+.infographie {
+  height: 50%;
+  width: 100%;
+  margin:5px;
 }
