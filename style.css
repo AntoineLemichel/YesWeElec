@@ -13,6 +13,7 @@ body
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
+    font-family: 'Alef';
 }
 
 .nav_menu {
@@ -23,10 +24,10 @@ body
 }
 
 .CS-middle {
-  border: 2px black outset;
+  border: 2px black ;
   Width:60%;
   height:50%;
-  margin-left:20%;
+  margin-left:15%;
   margin-right:20%;
   margin-bottom:20%;
   margin-top:6%;
@@ -102,4 +103,18 @@ input[type=submit]:hover {
 .linkedinimage {
   position:relative;
   margin-left: 1%;
+}
+.Bouton {
+  background-color: black;
+  height: 3%;
+  width: 33%;
+  border-radius: 7px;
+}
+.Bouton a {
+  text-decoration: none;
+  color : white;
+  font-size: 1.5rem;
+}
+.Bouton:hover{
+  background-color: #4A5462;
 }
